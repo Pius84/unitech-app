@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Uni-Tech</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/signup.css') }}">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <!--<img class="logo" src="green.png">-->
+          <h1 class="logo-name"><span class="firstpart-logoname">UNI</span><span class="logo-connector">-</span><span class="lastpart-logoname">TECH</span></h1>
+        </div>
+        <div class="header-right">
+          <a href="login.html" class="login">LOGIN</a>
+        </div>
+      </div>
+    </header>
+    <div class="top-wrapper">
+      <div class="container">
+        <h1>WHAT ARE YOU WAITING FOR?</h1>
+        <h1>SIGN UP FOR AN ACCOUNT!</h1>
+       <form name="signup" class="signup-form">
+                      <p>
+                     <label for="username" class="username">Username:</label>
+                     <input type="text" id="username" name="username"/>
+                    </p>
+                     <p>
+                     <label for="email" class="email">Email:</label>
+                     <input type="email" id="email" name="email"/>
+                    </p>
+                    <p>
+                   <label for="confirmemail" class="email">Confirm Email:</label>
+                   <input type="email" id="confirmemail" name="confirmemail"/>
+                    </p>
+                     <p>
+                   <label for="password" class="password">Password:</label>
+                   <input type="password" id="password" name="password"/>
+                    </p>
+                     <p>
+                   <label for="confirmpassword" class="password">Confirm Password:</label>
+                   <input type="password" id="confirmpassword" name="confirmpassword"/>
+                    </p>
+                     <span class="gender">Gender:</span>
+                     <input type="radio" name="gender" id="male"
+                     value="M"/>
+                     <label for="male">Male</label>
+                     <input type="radio" name="gender" id="female"
+                     value="F"/>
+                     <label for="female">Female</label><br />
+                    </p>
+                    <p><input type="checkbox" check>I agree to the<a style="text-decoration: none; color: BLUE;" href="#">Terms of Use</a> and<a style="text-decoration: none; color: BLUE;" href="#">Privacy Policies.</a> </p>
+                    <p>
+                     <input type="submit" value="sign up"
+                     id="register" class="btn-signup" />
+                    </p>
+                    </form>
+        <div class="btn-wrapper"></div>
+      </div>
+    </div>
+
+    <div class="message-wrapper">
+    </div>
+    <footer class="footer">
+        <p>&copy; <span class="firstpart-logoname">UNI</span><span class="logo-connector">-</span><span class="lastpart-logonamefooter">TECH</span> 2018</p>
+      </footer>
+  </body>
+</html>  

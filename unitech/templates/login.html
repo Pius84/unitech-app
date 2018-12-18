@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Uni-Tech</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/login.css') }}">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <!--<img class="logo" src="green.png">-->
+          <h1 class="logo-name"><span class="firstpart-logoname">UNI</span><span class="logo-connector">-</span><span class="lastpart-logoname">TECH</span></h1>
+        </div>
+        <div class="header-right">
+          <a href="signup.html" class="signup">SIGN UP</a>
+        </div>
+      </div>
+    </header>
+    <div class="top-wrapper">
+      <div class="container">
+        <h1>Your account is waiting for you to login!</h1>
+         <form name="login" class="login-form">
+                    <p>Username:
+                     <input type="text" name="username" maxlength="30" />
+                    </p>
+                    <p>Password:
+                     <input type="password" name="password" maxlength="30" />
+                    </p>
+                    <p>
+                   <input type="submit" name="login"
+                     value="Login" id="signin" class="btn-login" />
+                     </p>
+                    </form>
+        <div class="btn-wrapper"></div>
+      </div>
+    </div>
+
+    <div class="message-wrapper">
+    </div>
+    <footer class="footer">
+        <p>&copy; <span class="firstpart-logoname">UNI</span><span class="logo-connector">-</span><span class="lastpart-logonamefooter">TECH</span> 2018</p>
+      </footer>
+  </body>
+</html>  
